@@ -7,7 +7,7 @@ import os
 from PIL import Image
 
 # Load API Key securely from Streamlit secrets
-API_KEY = 'AIzaSyB40JCVNmmLfjtvXYETQOiXL7G7w1czKfQ'
+API_KEY = 'your apikey'
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key={API_KEY}"
 
 # Function to encode image to base64
